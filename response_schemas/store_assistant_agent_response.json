@@ -1,0 +1,22 @@
+{
+  "agent_name": "Store Assistant Agent",
+  "agent_id": "6998855dcbf2112bbf468a8c",
+  "description": "Conversational AI assistant that helps store staff draft product descriptions, suggest pricing for clothing items based on category and context, answer inventory management queries, and provide retail best practices",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "response": "string",
+    "suggestions": [
+      "string"
+    ],
+    "category": "string"
+  },
+  "example_response": {
+    "response": "The main response text from the agent",
+    "suggestions": [
+      "sample string"
+    ],
+    "category": "Type of response: description, pricing, query, or tip"
+  }
+}

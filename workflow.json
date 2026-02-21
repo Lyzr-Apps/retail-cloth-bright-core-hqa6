@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "id": "input_node",
+      "type": "Input",
+      "label": "User Query",
+      "nodeCategory": "input"
+    },
+    {
+      "id": "store_assistant_agent",
+      "type": "Agent",
+      "label": "Store Assistant Agent",
+      "nodeCategory": "agent"
+    },
+    {
+      "id": "output_node",
+      "type": "Output",
+      "label": "Agent Response",
+      "nodeCategory": "end"
+    }
+  ],
+  "edges": [
+    {
+      "source": "input_node",
+      "target": "store_assistant_agent"
+    },
+    {
+      "source": "store_assistant_agent",
+      "target": "output_node"
+    }
+  ]
+}
