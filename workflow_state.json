@@ -3,7 +3,7 @@
     "store_assistant_agent": {
       "agent_id": "6998855dcbf2112bbf468a8c",
       "name": "Store Assistant Agent",
-      "description": "Conversational AI assistant that helps store staff draft product descriptions, suggest pricing for clothing items based on category and context, answer inventory management queries, and provide retail best practices",
+      "description": "Conversational AI assistant that helps store staff draft product descriptions, suggest pricing for clothing items based on category and context, answer inventory management and sales queries, analyze sales trends, and provide retail best practices",
       "model": "gpt-4.1",
       "provider": "OpenAI",
       "temperature": 0.5,
